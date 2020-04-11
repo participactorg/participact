@@ -4,16 +4,13 @@ class About extends Component{
     render(){
         return (
             <div id='about'>
-                <div className="container" style={{height:"2em", backgroundColor:"hsla(0,0%,98%,.9)"}}></div>
+               <div className='container ctnr-valeurs' >
 
-                <div style={{display:'flex', flexDirection:'row', justifyContent:'center',marginRight:'5em', marginLeft:'5em'}}>
-
-                        <div style={{maxWidth:'50%'}}>
-                            <img src='image/team.jpg' alt='team' style={{maxWidth:'100%', height:'auto'}}></img>   
-                        </div>
-                        <div   style={{ backgroundColor:'lightgrey', textAlign:'center', maxWidth:'50%', display:'flex', flexDirection:'column', justifyContent:'center ', padding:'1em'}}>
-                            <h1 style={{fontFamily:'Amatic SC', color:'#ffff', fontWeight:'500', fontSize:'3em',paddingBottom:'1em'}}>Engagements Valeurs et Actions</h1>
-                            <div className="container" style={{fontFamily:'Robot, cursive'}}>
+                       
+                        <div className="valeurs">
+                            <h1>Engagements Valeurs et Actions</h1>
+                            <hr className="hr-h1"/>      
+                            <div className="container" style={{}}>
                                 <p>Partir certes, mais pour quoi faire ? Nous sommes Suzanne et Charlotte, étudiantes à Kedge (école de commerce)
                                     et Juba est étudiant en informatique à la Sorbonne. Nous avons voulu nous engager au sein d’un projet porteur
                                     de sens, et apporter notre aide, à l’aide des moyens dont nous disposons. Loin de la vision dépassée du volontariat
@@ -21,19 +18,21 @@ class About extends Component{
                                     aller à la rencontre de ces organisations qui réinventent de nouveaux modèles en connaissance de l’environnement
                                     au sein desquels elles déploient leurs actions. <br/> <br/>
                                     Créer un projet qui nous ressemble, humble, vecteur d’échanges et de projets durables, telle est notre démarche
-</p>
+                                </p>
                             </div>
                         </div>
                 </div>
 
                 <div className='container-perso container'>
 
+                    <h1>Qui Sommes nous ?</h1>
+                    <hr className="hr-h1"/>        
                     
                     
-                    <div style={{paddingLeft:'4em', paddingRight:'4em', marginTop:'4em', display:'flex', textAlign:'center', alignItems:'center'}}>
-                        <img className='shadow-lg' src='image/suz.jpg' alt='teamMember' style={{borderRadius:'50%', width:'25%'}}/>
+                    <div className="box-perso">
+                        <img className='shadow-lg avatar-pres' src='image/suz.jpg' alt='teamMember'/>
                         
-                        <p style={{padding: '2em'}}>
+                        <p className="txt-pres-perso">
                             Suzanne est pleine d’énergie et n’hésite pas à s’investir pleinement dans un projet qui a du sens pour elle. 
                             Honnête avec les autres et envers elle, Suzanne avance et fait avancer les autres avec elle. C’est une personne
                             engagée dans les causes auxquelles elle croit, et cela lui donne une force véritable et un optimisme sans faille.
@@ -44,10 +43,10 @@ class About extends Component{
                         </p>
                     </div>
 
-                    <div style={{paddingLeft:'4em', paddingRight:'4em', marginTop:'4em', display:'flex', textAlign:'center', alignItems:'center'}}>
-                        <img className='shadow-lg' src='image/charlotte.jpg' alt='teamMember' style={{borderRadius:'50%', width:'25%'}}/>
+                    <div className="box-perso">
+                        <img className='shadow-lg avatar-pres' src='image/charlotte.jpg' alt='teamMember'/>
                         
-                        <p style={{padding: '2em'}}>
+                        <p className="txt-pres-perso">
                             Charlotte c’est la positive attitude, c’est le retour à l’émerveillement, c’est la capacité à se concentrer sur ce qu’il
                             y a de plus beau dans le monde. Venue de Créteil, Charlotte créée son bout de chemin en se rappelant quotidiennement que 
                             la vie est telle un livre qu’il nous appartient d’écrire et de réinventer au quotidien. Cette fibre littéraire la rattrape 
@@ -57,10 +56,10 @@ class About extends Component{
                         </p>
                     </div>
 
-                    <div style={{paddingLeft:'4em', paddingRight:'4em', marginTop:'4em', display:'flex', textAlign:'center', alignItems:'center'}}>
-                        <img className='shadow-lg' src='image/moi.jpg' alt='teamMember' style={{borderRadius:'50%', width:'25%'}}/>
+                    <div className="box-perso">
+                        <img className='shadow-lg avatar-pres' src='image/moi.jpg' alt='teamMember'/>
                         
-                        <p style={{padding: '2em'}}>
+                        <p className="txt-pres-perso">
                             Juba c’est la force tranquille, c’est la gentillesse, c’est la capacité à mettre l’ensemble de ses compétences
                             dans un projet qui lui tient à cœur. Tout droit venu de Saint-Denis, Juba est étudiant en informatique à la faculté 
                             de la Sorbonne. Il est actuellement dans un master tourné autour de l’entrepreneuriat et c’est sans hésiter qu’il 
