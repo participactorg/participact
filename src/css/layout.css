@@ -12,6 +12,18 @@ body{
     font-family: 'Roboto', cursive;
 }
 
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ffff;
+}
+
+a{
+    color: black;
+}
 .bg{
     background-image: url("/image/hands180.jpg");
     background-repeat: no-repeat;

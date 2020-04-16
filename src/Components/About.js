@@ -47,19 +47,26 @@ class About extends Component{
                     
                             <div style={{display:'flex', justifyContent:'space-around', flexWrap:'wrap'}}>
                                 <div className="box-perso">
-                                    <img className='shadow-lg avatar-pres' src='image/suz.jpg' alt='teamMember'/>
-                                    <p className='name'>Suzanne</p>
-                                </div>
-
-                                <div className="box-perso">
-                                    <img className='shadow-lg avatar-pres' src='image/charlotte.jpg' alt='teamMember'/>
-                                    <p className='name'>Charlotte</p>
+                                    <a href='https://www.linkedin.com/in/suzanne-grenard-360b06166/'>
+                                        <img className='shadow-lg avatar-pres' src='image/suz.jpg' alt='teamMember'/>
+                                        <p className='name'>Suzanne</p>
+                                    </a>
                                     
                                 </div>
 
                                 <div className="box-perso">
-                                    <img className='shadow-lg avatar-pres' src='image/moi.jpg' alt='teamMember'/>
-                                    <p className='name'>Juba</p>
+                                    <a href='https://www.linkedin.com/in/charlotte-deflandre-749a0217a/'>
+                                        <img className='shadow-lg avatar-pres' src='image/charlotte.jpg' alt='teamMember'/>
+                                        <p className='name'>Charlotte</p>
+                                    </a>
+                                    
+                                </div>
+
+                                <div className="box-perso">
+                                    <a href='https://renardfestif.github.io/myresume/'>
+                                        <img className='shadow-lg avatar-pres' src='image/moi.jpg' alt='teamMember'/>
+                                        <p className='name'>Juba</p>
+                                    </a>
                                 
                                 </div>
 
