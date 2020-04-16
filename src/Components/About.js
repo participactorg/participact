@@ -10,68 +10,68 @@ class About extends Component{
                         <div className="valeurs">
                             <h1>Engagements Valeurs et Actions</h1>
                             <hr className="hr-h1"/>      
-                            <div className="container" style={{}}>
-                                <p>Partir certes, mais pour quoi faire ? Nous sommes Suzanne et Charlotte, étudiantes à Kedge (école de commerce)
-                                    et Juba est étudiant en informatique à la Sorbonne. Nous avons voulu nous engager au sein d’un projet porteur
-                                    de sens, et apporter notre aide, à l’aide des moyens dont nous disposons. Loin de la vision dépassée du volontariat
-                                    traditionnel axé sur le principe du don et de la supériorité présupposée des modèles occidentaux, nous souhaitons
-                                    aller à la rencontre de ces organisations qui réinventent de nouveaux modèles en connaissance de l’environnement
-                                    au sein desquels elles déploient leurs actions. <br/> <br/>
-                                    Créer un projet qui nous ressemble, humble, vecteur d’échanges et de projets durables, telle est notre démarche
+                            <div className="container">
+                                <p>
+                                    Partir certes, mais pour quoi faire ? Nous sommes Suzanne, Charlotte et Juba, trois 
+                                    étudiants en management et informatique, et c’est la question que nous nous sommes 
+                                    posées lors de notre année de césure. On souhaitait nous engager au sein d’un projet 
+                                    porteur de sens, et apporter notre aide avec les moyens dont nous disposions. Un triste 
+                                    constat s’est révélé à nous : il est bien plus difficile d’aider qu’il n’y paraît. 
+                                    <br/>
+                                    Beaucoup d’offres de volontariats existent sur internet mais nombre d’entre elles sont issues
+                                    d’agences de volontourisme, ou d’ONG internationales.
+                                    <br/> 
+                                    Pas ou très peu d’offre ou même de visibilité de la part d’organisations locales. 
+                                    Proposer son aide aux organisations les plus demandeuses d’aide n’est pas chose aisée.
+                                    <br/>
+                                    <br/> 
+                                    L’idée de Participact est alors née : proposer un support qui mettrait en lien des organisations 
+                                    qui auraient le plus besoin de volontaires, avec des personnes qui souhaiteraient aider de manière 
+                                    véritablement utile. 
+                                    <br/>
+                                    Nous partons donc rencontrer et échanger avec les personnes qui composent ces organisations. 
+                                    Ces organisations font toutes partie de l’ESS, à travers différentes problématiques (sociales, 
+                                    environnementales, entrepreneuriales, etc) et chacune d’entre elles représente un apport incroyable de connaissance, 
+                                    puisqu’elles proposent, incarnent, et réinventent les nouveaux modèles d’une économie alternative. 
+                                    <br/>
+                                    <br/>
+                                    <div style={{textAlign:'center'}}><strong>Participact est un projet qui nous ressemble,
+                                     humble, vecteur d’échanges et de projets durables.</strong></div>
+
                                 </p>
                             </div>
+
+
+                            <h2>Notre équipe</h2>
+                            <hr className="hr-h1"/>        
+                    
+                            <div style={{display:'flex', justifyContent:'space-around', flexWrap:'wrap'}}>
+                                <div className="box-perso">
+                                    <img className='shadow-lg avatar-pres' src='image/suz.jpg' alt='teamMember'/>
+                                    <p className='name'>Suzanne</p>
+                                </div>
+
+                                <div className="box-perso">
+                                    <img className='shadow-lg avatar-pres' src='image/charlotte.jpg' alt='teamMember'/>
+                                    <p className='name'>Charlotte</p>
+                                    
+                                </div>
+
+                                <div className="box-perso">
+                                    <img className='shadow-lg avatar-pres' src='image/moi.jpg' alt='teamMember'/>
+                                    <p className='name'>Juba</p>
+                                
+                                </div>
+
+                            </div>
+
+                            
+
                         </div>
-                </div>
-
-                <div className='container-perso container'>
-
-                    <h1>Qui Sommes nous ?</h1>
-                    <hr className="hr-h1"/>        
-                    
-                    
-                    <div className="box-perso">
-                        <img className='shadow-lg avatar-pres' src='image/suz.jpg' alt='teamMember'/>
                         
-                        <p className="txt-pres-perso">
-                            Suzanne est pleine d’énergie et n’hésite pas à s’investir pleinement dans un projet qui a du sens pour elle. 
-                            Honnête avec les autres et envers elle, Suzanne avance et fait avancer les autres avec elle. C’est une personne
-                            engagée dans les causes auxquelles elle croit, et cela lui donne une force véritable et un optimisme sans faille.
-                            Née à Jonzac près de Bordeaux, elle passe son enfance dans un environnement paisible et part étudier à Bordeaux.
-                            De formation littéraire, Suzanne a la tête sur les épaules mais pleines d’idées qu’elle veut concrétiser.<br/>
- 
-                            « L’ambition n’est pas de changer le monde, mais le comprendre un peu mieux ».
-                        </p>
                     </div>
 
-                    <div className="box-perso">
-                        <img className='shadow-lg avatar-pres' src='image/charlotte.jpg' alt='teamMember'/>
-                        
-                        <p className="txt-pres-perso">
-                            Charlotte c’est la positive attitude, c’est le retour à l’émerveillement, c’est la capacité à se concentrer sur ce qu’il
-                            y a de plus beau dans le monde. Venue de Créteil, Charlotte créée son bout de chemin en se rappelant quotidiennement que 
-                            la vie est telle un livre qu’il nous appartient d’écrire et de réinventer au quotidien. Cette fibre littéraire la rattrape 
-                            d’ailleurs et la mène à s’inscrire en classe préparatoire littéraire hypokhâgne. Elle intègrera ensuite Kedge BS mais loin 
-                            de sombrer dans les méandres de l’école de commerce elle s’investira dans des projets culturels comme TedX Kedge Bordeaux. 
-                            Voici pour elle venu le moment de voler de ses propres ailes et des transformer ses idéaux en projet réel
-                        </p>
-                    </div>
-
-                    <div className="box-perso">
-                        <img className='shadow-lg avatar-pres' src='image/moi.jpg' alt='teamMember'/>
-                        
-                        <p className="txt-pres-perso">
-                            Juba c’est la force tranquille, c’est la gentillesse, c’est la capacité à mettre l’ensemble de ses compétences
-                            dans un projet qui lui tient à cœur. Tout droit venu de Saint-Denis, Juba est étudiant en informatique à la faculté 
-                            de la Sorbonne. Il est actuellement dans un master tourné autour de l’entrepreneuriat et c’est sans hésiter qu’il 
-                            nous rejoint pour la création de Participact. Véritable moteur du projet, il y voit un moyen de développer de nouvelles 
-                            compétences et de participer au développement d’un projet porteur de sens tout en continuant ses études à Paris. Pilier 
-                            et technicien du projet, il saura vous régaler avec les différentes fonctionnalités que le site offre. 
-                        </p>
-                    </div>
-                    
-
-               
-                </div>
+                    <a className='btn contact-btn' href="mailto:participact.org@gmail.com"><h2> Contactez-nous !</h2></a>
 
             </div>
         )

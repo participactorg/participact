@@ -26,15 +26,8 @@ class Home extends Component{
                             locales (associations, ONG, coopératives, et autres) à la recherche de volontaires. Il s’agit
                             d’une plateforme d’échange entre des personnes des quatre coins du monde ayant toutes en commun 
                             cette envie de participer à un projet humaniste et porteur de sens.<br/> Pour faire court :  
-                            <strong> ParticipAct aspire a créer du lien !</strong>.
-                        </p>
-
-                        <p>Cette plateforme offre plusieurs options: </p> 
-                        <li>La découverte d’organisations locales à travers des contenus de communication développés par nos soins</li>
-                        <li>La possibilité d’entrer en contact avec ces organisations partenaires via les offres de volontariats mises en ligne</li>
-                        <li>La possibilité de rejoindre ce projet solidaire en tant que volontaire ou en tant qu’organisation </li>
-
-                        <p>
+                            <strong> ParticipAct aspire à créer du lien !</strong>.
+                        
                             <br/>
                             Transparence, collaboration et action locale sont les valeurs de Participact
                             <br/>
